@@ -1,4 +1,4 @@
-# start_rag_here.py — Minimal RAG with OpenAI + FAISS (LangChain 1.x)
+# simplest_rag.py — Minimal RAG with OpenAI + FAISS (LangChain 1.x)
 
 import os, csv, logging
 from dotenv import load_dotenv
