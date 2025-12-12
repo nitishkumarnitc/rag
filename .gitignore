@@ -1,3 +1,4 @@
 .env
 .venv
 src/tests/__pycache__/*
+src/db/*
