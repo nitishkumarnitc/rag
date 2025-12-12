@@ -49,7 +49,7 @@ USE_LLM = os.environ.get("USE_LLM", "False").lower() in ("1", "true", "yes")
 HF_MODEL = os.environ.get("HF_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
 HF_DEVICE = os.environ.get("HF_DEVICE", "cpu")             # "cpu", "mps", or "cuda"
 CHROMA_DIR = os.environ.get("CHROMA_DIR", "db/chroma")
-OUT_CSV = os.environ.get("OUT_CSV", "FinalResponseHFChroma.csv")
+OUT_CSV = os.environ.get("OUT_CSV", "response/FinalResponseHFChroma.csv")
 DOCS_DIR = os.environ.get("DOCS_DIR", "documents")
 # ----------------------------------------
 
